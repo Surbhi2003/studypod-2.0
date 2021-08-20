@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>heading</title>
+    <style>
+        body {
+
+            font-family: sans-serif;
+        }
+
+        header {
+            background: url('img/dance.jpg/dance\ image.jpg') no-repeat center/cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: -1;
+            opacity: 0.766;
+        }
+
+        @media (min-width:621px) and (max-width:794px) {
+            .position {
+                color: #46240b;
+                font-size: 25px;
+                margin: -43px -15px -57px -205px;
+                padding: 18px 13px 105px 327px;
+            }
+
+            .btn {
+                display: inline;
+                position: absolute;
+                right: 84px;
+                top: 691px;
+                color: white;
+                background-color: #1b56bf;
+                padding: 10px 17px 8px 14px;
+                font-size: 19px;
+                border-radius: 9px;
+            }
+
+            .position2 {
+                color: #000000;
+                margin: 4px 30px 16px 3px;
+                padding: 3px 4px 6px 2px;
+                border-radius: 7px;
+                font-size: 23px;
+            }
+
+            #con {
+                border-radius: 9px;
+                font-size: 21px;
+            }
+
+            #con2 {
+                border: 2px solid rgb(19, 49, 182);
+                background-color: rgb(73, 73, 206);
+                border-radius: 6px;
+                margin: 14px;
+
+            }
+
+            #con3 {
+                position: absolute;
+                left: 202px;
+                top: 759px;
+                margin: 19px 0px 8px -345px;
+            }
+        }
+
+        @media (min-width:794px) {
+
+            .position {
+                /* border: 2px solid red; */
+                margin: 2px;
+                padding: 22px 56px 40px 300px;
+                font-size: 25px;
+                color: #46240b;
+            }
+
+
+            .btn {
+                display: inline;
+                position: absolute;
+                right: 184px;
+                top: 691px;
+                color: white;
+                background-color: #1b56bf;
+                padding: 10px 17px 8px 14px;
+                font-size: 19px;
+                border-radius: 9px;
+            }
+
+            .position2 {
+                color: #000000;
+                margin: 45px 4px 16px 3px;
+                padding: 44px 37px 12px 345px;
+                border-radius: 7px;
+                font-size: 28px;
+
+
+            }
+
+            #con {
+                border-radius: 9px;
+                font-size: 24px;
+            }
+
+            #con2 {
+                border: 2px solid rgb(19, 49, 182);
+                background-color: rgb(73, 73, 206);
+                border-radius: 6px;
+                margin: 14px;
+
+            }
+        }
+
+        .item {
+            display: block;
+            width: 66%;
+            margin: 45px auto;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .navbar {
+            border: 2px solid rgb(238, 210, 210);
+            border-radius: 25px;
+            display: inline-block;
+            margin: -13px 29px 0px -106px;
+
+        }
+
+        .navbar li {
+
+            display: inline-block;
+
+        }
+
+        .navbar li a {
+
+            color: black;
+            margin: 0px 0px 0px -10px;
+            padding: 0px 18px 0px 9px;
+            text-decoration: none;
+            font-size: 21px;
+        }
+
+        .navbar li a :hover,
+        .navbar li a:active {
+            text-decoration: underline;
+            color: rgb(138, 148, 137);
+        }
+
+        .right {
+            position: absolute;
+            right: 7px;
+            top: 23px;
+            display: inline-block;
+        }
+
+        .right img {
+            width: 67px;
+            height: 80px;
+            border-radius: 26px;
+
+        }
+
+        .right div {
+            text-align: center;
+            font-size: 15px;
+        }
+
+        .con {
+            /* border: 4px solid orange; */
+            display: flex;
+            flex-direction: row;
+            width: 580px;
+            height: 260px;
+            margin: 180px auto 0;
+            padding: 5px 22px 57px 30px;
+        }
+
+        .container {
+            border: 2px solid rgb(238, 210, 210);
+            margin: 25px 5px 32px 15px;
+            justify-content: space-evenly;
+            padding: 32px 0px 5px 16px;
+        }
+
+        #item-1 {
+            /* background-color: rgb(253, 255, 249); */
+            border-radius: 27px;
+            height: 220px;
+            width: 560px;
+
+        }
+
+        #item-1 img {
+            width: 36px;
+            height: 46px;
+            border-radius: 11px;
+            margin: 0 47px;
+        }
+
+        #item-2 {
+            /* background-color: rgb(253, 255, 249); */
+            border-radius: 27px;
+            height: 220px;
+            width: 560px;
+
+        }
+
+        #item-2 img {
+            margin: 0 30px;
+            width: 64px;
+            height: 56px;
+            border-radius: 11px;
+
+        }
+
+        #item-3 {
+            /* background-color: rgb(255, 253, 253); */
+            border-radius: 27px;
+            height: 220px;
+            width: 560px;
+
+        }
+
+        #item-3 img {
+            margin: -15px 46px;
+            width: 40px;
+            height: 48px;
+            border-radius: 11px;
+        }
+
+
+        .position p {
+            color: brown;
+            margin: 3px 0px -43px -97px;
+            padding: 0px 0px 0px 0px;
+            font-size: 18px;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+        }
+
+        #con2 {
+            border: 2px solid rgb(19, 49, 182);
+            background-color: rgb(73, 73, 206);
+            border-radius: 6px;
+            margin: 14px;
+
+        }
+
+        #con3 {
+            position: absolute;
+            left: 555px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="item">
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#" class="active" target="_blank">Home</a></li>
+                    <li><a href="#" class="active" target="_blank">About</a></li>
+                    <li><a href="#" class="active" target="_blank">Dance Classes</a></li>
+                    <li><a href="#" class="active" target="_blank">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="right">
+            <img src="img/dance.jpg/dance.logo.jpg" alt="">
+            <div>Jerry Academy</div>
+        </div>
+    </header>
+    <div class="con">
+        <div class="container" id="item-1">
+            <h3>HOW TO JOIN</h3>
+            <img src="img/dance.jpg/steps dance.jpg" alt="">
+            <p>Duis autem vel eurn iriurs dolor in hendreit in vulputate velit esse moiestie consequat,vel illum</p>
+        </div>
+        <div class="container" id="item-2">
+            <h3>OUR STYLE</h3>
+            <img src="img/dance.jpg/step dance 3.jpg" alt="">
+            <p> Atem vel eum irrure dolor in Lorem ipsum dolor sit amet, consectetur adipisicing. </p>
+        </div>
+        <div class="container" id="item-3">
+            <h3>SCHEDULE & PRICES</h3>
+            <img src="img/dance.jpg/steps dance 2.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet tem eum accusamus non obcaecati amet yae sit.</p>
+        </div>
+    </div>
+    <div class="position">
+        <h2>20 AUGUST 2021 DANCE CHAMPIONSHIP!</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing iores sit voluptas quae non t amet consectetur,Lorem
+            ipssect tempore quos quo.
+            adipisicing elcing eperspiciatis possimus aspernatur, explicabo quibusdam architecto vero!
+            corporis.</p>
+    </div>
+    <div>
+        <a href="get more information" class="btn"> More Info.</a>
+    </div> <br>
+    <div class="position2">
+        NEWSLETTER: <input id="con" type="email" name="my email" placeholder="E-mail">
+        <a href="sign up" id="con2"> sign up</a>
+        <br>
+    </div>
+    <p id="con3">Copyright*2021.Privacy Policy
+    </p>
+
+</body>
+
+</html>
